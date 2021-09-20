@@ -1,0 +1,168 @@
+body
+{
+  background-color:  #270E2D;
+  color: white;
+  overflow-x: hidden;
+}
+.btn
+{
+  background-color: #BD00FF;
+}
+.color
+{
+  
+  border-bottom-color:#BD00FF;
+  padding-bottom: 5px;
+  border-bottom-style: dashed;
+  
+
+}
+.one
+{
+  display:block;
+  position: relative;
+  background-color: cornsilk;
+  content:"";
+}
+.one
+{
+  height: 50px;
+  width:8px;  
+  background-color:#BD00FF;
+  transform: translate(-15px,60px) rotate(0deg) ;
+}
+.two
+{
+  display:block;
+  position: absolute;
+  background-color: cornsilk;
+ 
+}
+.two
+{
+  height: 120px;
+  width:8px;  
+  background-color:#BD00FF;
+  transform: translate(42px,-48px) rotate(90deg) ;
+}
+.three
+{
+  display:block;
+  position: absolute;
+  background-color: cornsilk;
+  content:"";
+}
+.three
+{
+  height: 20px;
+  width:8px;  
+  background-color:#BD00FF;
+  transform: translate(120px,2px) rotate(90deg) ;
+}
+.four
+{
+  display:block;
+  position: absolute;
+  background-color: cornsilk;
+  content:"";
+}
+.four
+{
+  height: 50px;
+  width:8px;  
+  background-color:#BD00FF;
+  transform: translate(500px,90px) rotate(0deg) ;
+}
+.five
+{
+  display:block;
+  position: absolute;
+  background-color: cornsilk;
+  content:"";
+}
+.five
+{
+  height: 120px;
+  width:8px;  
+  background-color:#BD00FF;
+  transform: translate(440px, 76px) rotate(90deg) ;
+}
+.six
+{
+  display:block;
+  position: absolute;
+  background-color: cornsilk;
+  content:"";
+}
+.six
+{
+  height: 20px;
+  width:8px;  
+  background-color:#BD00FF;
+  transform: translate(360px,126px) rotate(90deg) ;
+}
+.card
+{
+  background-color: #270E2D;
+ 
+}
+.happy 
+{ 
+  color: #270E2D; 
+  margin-bottom: 20px;
+
+}  
+  
+  #layer2
+{
+  transform: translate(-835px, -100px) ;
+  width :vw;
+  position: absolute;
+  align-self: flex-end;
+}
+#layer1
+{
+  transform: translateX(360px);
+}
+.namecards
+{
+  background-color: #BD00FF;
+  margin:auto;
+}
+.cardcenter
+{
+
+  display:flex;
+  align-items: center;
+}
+.card{
+  width:100%;
+
+}
+
+.nav-link-offcanvas
+{
+  color: white;
+  text-decoration: none;
+
+}
+.offcanvas
+{
+  background-color: #270E2D;
+  margin:auto;
+  
+  
+}
+.off1
+{
+  background-color: #BD00FF;
+}
+.copyright
+{
+  padding-top: 30px;
+  color: antiquewhite;
+}
+.nav-item-offcanvas
+{
+  line-height: 50px;
+}

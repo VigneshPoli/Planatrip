@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous">
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+      <link rel="stylesheet" href="pain.css">
+    <title>Plan your trip</title>
+  </head>
+  <body>
+    <section
+    class="back">
+    <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <div class="container ">
+        <button
+            class="btn btn-lg text-light"
+            
+          >
+            Home 
+          </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasleft"
+              aria-controls="offcanvasleft"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="color" >ABOUT</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="color" >CONTACT</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="#"><span class="color" >PRICING</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="#">ACCOUNT</a>
+            </li>
+           </ul>
+
+          </div>
+          
+          </div>
+          <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasleft"
+              aria-labelledby="offcanvasleftLabel"
+            >
+              <div class="offcanvas-header">
+                <img
+                  class="offcanvas-title offimg"
+                  id="offcanvasleftLabel"
+                  src="Logo.png"
+                  alt="Logo"
+                />
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav navbar-nav-offcanvas ms-auto ">
+                  <li class="nav-item-offcanvas off1">
+                    <a href="" class="nav-link-offcanvas"><h2>HOME</h2></a>
+                  </li>
+                  <li class="nav-item-offcanvas">
+                    <a href="" class="nav-link-offcanvas"><h2>ACCOUNT<h2></a>
+                  </li>
+                  <li class="nav-item-offcanvas">
+                    <a href="" class="nav-link-offcanvas"><h2>ABOUT US</h2></a>
+                  </li>
+                  <li class="nav-item-offcanvas">
+                    <a href="" class="nav-link-offcanvas"><h2>PRICING</h2></a>
+                  </li>
+                  <li class="nav-item-offcanvas">
+                    <a href="" class="nav-link-offcanvas"><h2>CONTACT US</h2></a>
+                  </li>
+                </ul>
+                <div class="copyright">
+                  Copyright 2021 &#9702; Plan Your Trip
+                </div>
+                <div class="copyright">
+                  For more queries contact us at <br />helpdesk@planyourtrip.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+    <section
+    class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+  >
+    <div class="container">
+      <img
+          class="img-fluid w-50 d-none d-sm-block"
+          src="Logo.png"
+          alt=""
+        />
+        
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+        <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+          <span class="four"></span>
+          <span class="five"></span>
+          <span class="six"></span>
+          <span class="happy"></span>
+        
+          
+          
+         <p class="lead my-4">
+            Got a long trip planned but don't know how to organize?
+            <br>
+            <br>
+
+            Leave the planning to us while you are focused on the trip.
+         </br>
+        </br>
+          </p>
+          <button
+            class="btn btn-lg text-light"
+            data-bs-toggle="modal"
+            data-bs-target="#enroll"
+          >
+            TRY FOR FREE  
+          </button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </section>
+  <div><img id="layer1" src="wave1.svg ">
+   <img id="layer2"src="wave2.svg"></div>
+</section>
+<section id="guide" class="namecards">
+  <div class="container ">
+    <div ><h2 class="text-center happy">---our happiness---</h2></div>
+    <div class="row g-4">
+      <div
+      class="d-flex col-lg-4 align-content-center"
+    >
+        <div class="card ">
+          <div class="card-body text-center">
+            <img
+              src="https://randomuser.me/api/portraits/women/11.jpg"
+              class="rounded-circle mb-3"
+              alt=""
+            />
+            <h3 class="card-title mb-3">ELENE ROSEN</h3>
+            <p class="card-text">
+              This was a wonderful experience for all of us in our family
+            </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div
+      class="d-flex col-lg-4 align-content-center"
+    >
+        <div class="card ">
+          <div class="card-body text-center">
+            <img
+              src="https://randomuser.me/api/portraits/women/11.jpg"
+              class="rounded-circle mb-3"
+              alt=""
+            />
+            <h3 class="card-title mb-3">IRENE HADLER</h3>
+            <p class="card-text">
+              Definitely recommended to anyone who wants a hassle free adventure
+            </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div
+      class="d-flex col-lg-4 align-content-center"
+    >
+        <div class="card">
+          <div class="card-body text-center">
+            <img
+              src="https://randomuser.me/api/portraits/women/11.jpg"
+              class="rounded-circle mb-3"
+              alt=""
+            />
+            <h3 class="card-title mb-3">ALOA SHERGILL</h3>
+            <p class="card-text">
+              This was a wholesome vacation 
+              <br>
+              experience
+            </br></p>
+            
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+
+<footer class="p-5 position-relative">
+<div class="container">
+  <a href="#" class="position-absolute bottom-0 end-0 p-5">
+    <i class="bi bi-arrow-up-circle h1"></i>
+  </a>
+</div>
+</footer>
+</section>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+      mapboxgl.accessToken =
+        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+      })
+    </script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous">
+    </script>
+  
+  </body>
+
+
+
